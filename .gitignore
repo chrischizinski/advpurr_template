@@ -20,6 +20,8 @@
 
 # RStudio files
 .Rproj.user/
+# Output files from R CMD build
+*.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -47,3 +49,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Miscellaneous 
+.DS_Store
